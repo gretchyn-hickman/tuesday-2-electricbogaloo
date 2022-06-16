@@ -1,5 +1,8 @@
 const initialState = {
-  favs: [{ title: DeviceMotionEvent, id: 1 }],
+  favs: [
+    { title: "movie", id: 1 },
+    { title: "Second", id: 2 },
+  ],
   displayFavs: true,
 };
 
