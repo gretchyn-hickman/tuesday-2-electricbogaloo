@@ -74,7 +74,7 @@ const Movie = (props) => {
 };
 const stateProps = (state) => {
   return {
-    movies: state.movies,
+    movies: state.movieReducer.movies,
   };
 };
 
